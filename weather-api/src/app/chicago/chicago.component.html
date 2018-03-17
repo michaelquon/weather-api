@@ -1,0 +1,12 @@
+
+  <div  id="main-box" style="width: 45rem;">
+      <img id="img" class="card-img-top" src="https://images.pexels.com/photos/161963/chicago-illinois-skyline-skyscrapers-161963.jpeg?h=350&auto=compress&cs=tinysrgb" alt="chicago image">
+      <div class="card-body">
+        <h1 class="card-title">Chicago, IL</h1>
+        <p >Humidity: {{ chicago['humidity'] }}%</p>
+        <p >Temp(Avg): {{ chicago['temp'] }}° F</p>
+        <p >Temp(Min): {{ chicago['temp_min'] }}° F</p>
+        <p >Temp(Max): {{ chicago['temp_max'] }}° F</p>
+        <p >Status: {{ chicago['description'] }}</p>
+        <a href="/" class="btn btn-primary">Back to Home Page</a>
+      </div>

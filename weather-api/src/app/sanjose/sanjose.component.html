@@ -1,0 +1,13 @@
+
+  <div  id="main-box" style="width: 45rem;">
+      <img id="img" class="card-img-top" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?h=350&auto=compress&cs=tinysrgb" alt="sanjose image">
+      <div class="card-body">
+        <h1 class="card-title">San Jose, WA</h1>
+        <p >Humidity: {{ sanjose['humidity'] }}%</p>
+        <p >Temp(Avg): {{ sanjose['temp'] }}° F</p>
+        <p >Temp(Min): {{ sanjose['temp_min'] }}° F</p>
+        <p >Temp(Max): {{ sanjose['temp_max'] }}° F</p>
+        <p >Status: {{ sanjose['description'] }}</p>
+        <a href="/" class="btn btn-primary">Back to Home Page</a>
+      </div>
+    

@@ -1,0 +1,17 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    margin-bottom: 1.5rem;
+}

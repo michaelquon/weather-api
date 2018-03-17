@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+ 
+</div>
+<div id="main-box">
+<button class="btn btn-primary btn-lg" [routerLink]="['seattle']" skipLocationChange>Seattle, WA</button>
+<button class="btn btn-primary btn-lg" [routerLink]="['sanjose']" skipLocationChange>San Jose, CA</button>
+<button class="btn btn-primary btn-lg" [routerLink]="['burbank']" skipLocationChange>Burbank, CA</button>
+<button class="btn btn-primary btn-lg" [routerLink]="['dallas']" skipLocationChange>Dallas, TX</button>
+<button class="btn btn-primary btn-lg" [routerLink]="['dc']" skipLocationChange>Washington DC</button>
+<button class="btn btn-primary btn-lg" [routerLink]="['chicago']" skipLocationChange>Chicago, IL</button>
+<router-outlet></router-outlet> 
+</div>
+
+

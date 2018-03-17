@@ -1,0 +1,12 @@
+ 
+  <div  id="main-box" style="width: 45rem;">
+      <img id="img" class="card-img-top" src="https://images.pexels.com/photos/208702/pexels-photo-208702.jpeg?h=350&auto=compress&cs=tinysrgb" alt="dc image">
+      <div class="card-body">
+        <h1 class="card-title">Washington DC</h1>
+        <p >Humidity: {{ dc['humidity'] }}%</p>
+        <p >Temp(Avg): {{ dc['temp'] }}° F</p>
+        <p >Temp(Min): {{ dc['temp_min'] }}° F</p>
+        <p >Temp(Max): {{ dc['temp_max'] }}° F</p>
+        <p >Status: {{ dc['description'] }}</p>
+        <a href="/" class="btn btn-primary">Back to Home Page</a>
+      </div>

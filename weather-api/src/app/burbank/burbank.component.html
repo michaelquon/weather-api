@@ -1,0 +1,11 @@
+  <div  id="main-box" style="width: 45rem;">
+      <img id="img" class="card-img-top" src="https://images.pexels.com/photos/196642/pexels-photo-196642.jpeg?h=350&auto=compress&cs=tinysrgb" alt="burbank image">
+      <div class="card-body">
+        <h1 class="card-title">Burbank, CA</h1>
+        <p >Humidity: {{ burbank['humidity'] }}%</p>
+        <p >Temp(Avg): {{ burbank['temp'] }}° F</p>
+        <p >Temp(Min): {{ burbank['temp_min'] }}° F</p>
+        <p >Temp(Max): {{ burbank['temp_max'] }}° F</p>
+        <p >Status: {{ burbank['description'] }}</p>
+        <a href="/" class="btn btn-primary">Back to Home Page</a>
+      </div>

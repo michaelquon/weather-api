@@ -1,0 +1,12 @@
+
+  <div  id="main-box" style="width: 45rem;">
+      <img id="img" class="card-img-top" src="https://images.pexels.com/photos/280193/pexels-photo-280193.jpeg?h=350&auto=compress&cs=tinysrgb" alt="dallas image">
+      <div class="card-body">
+        <h1 class="card-title">Dallas, TX</h1>
+        <p >Humidity: {{ dallas['humidity'] }}%</p>
+        <p >Temp(Avg): {{ dallas['temp'] }}° F</p>
+        <p >Temp(Min): {{ dallas['temp_min'] }}° F</p>
+        <p >Temp(Max): {{ dallas['temp_max'] }}° F</p>
+        <p >Status: {{ dallas['description'] }}</p>
+        <a href="/" class="btn btn-primary">Back to Home Page</a>
+      </div>
